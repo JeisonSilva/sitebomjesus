@@ -1,0 +1,42 @@
+.menu__lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-principal);
+    font-weight: 400;
+
+    width: 75vw;
+    height: 100vh;
+    position: absolute;
+    left: -100vw;
+    transition: all 0.5s ease-out;
+}
+
+.menu__lateral--aberto{
+    position: absolute;
+    left: 0vw;
+    transition: all 0.5s ease;
+}
+
+.menu__lateral__item{
+    display: flex;
+    align-items: center;
+
+    height: 64px;
+}
+
+.menu__lateral__item--ativo{
+    border-left: 8px solid var(--cor-link-ativo);
+    color: var(--cor-link-ativo);
+}
+
+.menu__lateral__item i::before{
+    content: "\e88a";
+    margin-right: 16px;
+    margin-left: 24px;
+}
+
+.menu__lateral__item a{    
+    text-decoration: none;
+    color: black;
+}
+

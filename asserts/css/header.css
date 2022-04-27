@@ -1,0 +1,33 @@
+.cabecalho{
+    background-image: url(../imagens/bomjesus_banner.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 30vh;
+}
+
+.cabecalho__toolbar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--cor-principal);
+    
+    width: 100vw;
+    height: 5vh;
+}
+
+
+.cabecalho__toolbar__menu i::before{
+    content: "\e5d2";
+    font-size: 2em;
+}
+
+.cabecalho__toolbar span{
+    color: white;
+}
+
+.cabecalho__toolbar__menu{
+    border: none;
+    background: none;
+}
