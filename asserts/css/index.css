@@ -1,0 +1,18 @@
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0px 16px 0px;
+
+}
+
+.mensagem__avisos{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 8px 0 0 0;
+}
+
+.mensagem__avisos i::before{
+    content: "\eaae";
+}
